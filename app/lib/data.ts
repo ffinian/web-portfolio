@@ -172,278 +172,50 @@ export const skills = [
 
 export const projects = [
   {
-    name: 'Spotter',
-    image: spotter,
-    description:
-      'Designed, developed, shipped, and maintained Spotter, a fully customizable workout tracking app on iOS built for weightlifters.',
+    name: 'MPhys Master’s Project',
+    image: null, 
+    description: 'Collaborative research project with The Christie Hospital focused on 3D data simulation and scientific computing.', // Citing: [cite: 12, 26]
     tech: [
-      {
-        src: typescript,
-        alt: 'typescript',
-      },
-      {
-        src: react,
-        alt: 'react',
-      },
-      {
-        src: expo,
-        alt: 'expo',
-      },
-      {
-        src: postgres,
-        alt: 'postgreSQL',
-      },
-      {
-        src: tailwind,
-        alt: 'tailwind',
-      },
-    ],
-    link: 'https://apps.apple.com/app/id6754656428',
-    isApp: true,
-    code: '#',
-  },
-  {
-    name: 'Cinefind, Web App',
-    image: cinefindWebApp,
-    description:
-      "Developed a full-stack web application for Cinefind which features a real-time dashboard of every free movie screening in a user's city.",
-    tech: [
-      {
-        src: typescript,
-        alt: 'typescript',
-      },
-      {
-        src: next,
-        alt: 'next.js',
-      },
-      {
-        src: react,
-        alt: 'react',
-      },
-      { src: tailwind, alt: 'tailwind' },
-      {
-        src: mongodb,
-        alt: 'mongodb',
-      },
-      {
-        src: prisma,
-        alt: 'prisma',
-      },
-      {
-        src: vercel,
-        alt: 'vercel',
-      },
-    ],
-    tags: [],
-    link: 'https://cinefind.app',
-    code: '#',
-  },
-  {
-    name: 'Cinefind, Server',
-    image: cinefindEngine,
-    description:
-      'Developed a Python-based local server for Cinefind that finds every free movie screening in the U.S., sending real-time email alerts to thousands of users.',
-    tech: [
-      {
-        src: python,
-        alt: 'python',
-      },
-      {
-        src: jinja,
-        alt: 'jinja',
-      },
-      {
-        src: beautifulsoup,
-        alt: 'beautifulsoup',
-      },
-      {
-        src: selenium,
-        alt: 'selenium',
-      },
-      {
-        src: mailgun,
-        alt: 'mailgun',
-      },
-      {
-        src: tmdb,
-        alt: 'tmdb',
-      },
-    ],
-    tags: [],
-    link: 'https://cinefind.app',
-    code: '#',
-  },
-  {
-    name: 'X/Twitter Bot Detector',
-    image: twitterBot,
-    description:
-      'Developed a machine learning model and web app to classify X/Twitter accounts as bots or humans, using custom features, data preprocessing, and predictive analysis for high accuracy.',
-    tech: [
-      {
-        src: python,
-        alt: 'python',
-      },
-      {
-        src: flask,
-        alt: 'flask',
-      },
-      {
-        src: scikit,
-        alt: 'scikit',
-      },
-      {
-        src: pandas,
-        alt: 'pandas',
-      },
+      { src: python, alt: 'python' },
+      { src: c, alt: 'C++' },
     ],
     link: null,
-    code: 'https://github.com/aross2010/twitter-bot-detector',
+    code: '#',
   },
   {
-    name: 'Vinyl Bot',
-    image: vinylBot,
-    description:
-      'Built automated Python scripts to send real-time email alerts for vinyl releases, integrating with the Discogs API to monitor and track wantlist records.',
+    name: 'Queuing Theory Simulation',
+    image: null,
+    description: 'Original research into queuing theory using Monte-Carlo methods and Python simulations.', // Citing: [cite: 60]
     tech: [
-      {
-        src: python,
-        alt: 'python',
-      },
-      {
-        src: jinja,
-        alt: 'jinja',
-      },
-      {
-        src: rpi,
-        alt: 'rpi',
-      },
-      {
-        src: cron,
-        alt: 'cron',
-      },
-      {
-        src: discogs,
-        alt: 'discogs',
-      },
-      {
-        src: reddit,
-        alt: 'reddit',
-      },
+      { src: python, alt: 'python' },
     ],
     link: null,
-    code: 'https://github.com/aross2010/vinyl-bot',
-  },
-  {
-    name: 'Spotlefy',
-    image: spotlefy,
-    description:
-      'Built a web app using the Spotify API that lets users create custom Heardle-style games by importing their playlists or searching any artist or playlist to generate song snippets for guessing.',
-    tech: [
-      {
-        src: typescript,
-        alt: 'typescript',
-      },
-      {
-        src: react,
-        alt: 'react',
-      },
-      {
-        src: next,
-        alt: 'next',
-      },
-      {
-        src: tailwind,
-        alt: 'tailwind',
-      },
-      {
-        src: vercel,
-        alt: 'vercel',
-      },
-      {
-        src: spotify,
-        alt: 'spotify',
-      },
-    ],
-    link: 'https://spotlefy.vercel.app/',
-    code: 'https://github.com/aross2010/spotlefy',
+    code: '#',
   },
 ]
 
 export const experiences = [
-  // {
-  //   title: 'Operations Manager',
-  //   subtitle: 'AMC Theatres',
-  //   image: amc,
-  //   dates: 'Mar. 2022 - Aug. 2022',
-  //   description:
-  //     'Managed HR functions such as recruiting, payroll, training, and optimizing team schedules to save $10K+ quarterly.',
-  // },
+  {
+    title: 'Physics & Programming Educator',
+    subtitle: 'AISSU, Shenzhen', // Citing: [cite: 35]
+    dates: 'Aug. 2025 - present',
+    description: 'Designing physics curriculum and communicating in Mandarin to facilitate technical instruction.', // Citing: [cite: 36, 38]
+    image: null,
+  },
+  {
+    title: 'MPhys Master\'s in Physics',
+    subtitle: 'The University of Manchester', // Citing: [cite: 23]
+    dates: 'Graduated July 2020',
+    description: 'Upper Second-Class Honors (2/1). Specialization in 1st Class programming modules.', // Citing: [cite: 23, 25]
+    image: null,
+  },
   {
     title: 'Research Student',
-    subtitle: 'Nuffield Research Placement, Cardiff University ',
-    link: 'https://cinefind.app',
-    //   {
-    //     src: python,
-    //     alt: 'python',
-    //   },
-    //   {
-    //     src: typescript,
-    //     alt: 'typescript',
-    //   },
-    //   {
-    //     src: next,
-    //     alt: 'next.js',
-    //   },
-    //   {
-    //     src: react,
-    //     alt: 'react',
-    //   },
-    //   {
-    //     src: mongodb,
-    //     alt: 'mongodb',
-    //   },
-    // ],
-    tags: [
-      'Analaysis of Queuing Theory',
-      'Simulation',
-      'Monte Carlo methods',
-      // 'Third-Party Data',
-      // 'UX Design',
-      // 'Real-Time Notifications',
-      // 'Subscription Billing',
-    ],
-    image: cinefindLogoC, //change
+    subtitle: 'Cardiff University (Nuffield Placement)', // Citing: [cite: 59]
     dates: 'Jul. - Aug. 2015',
-    description:
-      'Took part in a research placement at Cardiff University. Used Monte-Carlo methods to simulate queues and estimate waiting times for the maths department.',
+    description: 'Used Monte-Carlo methods to simulate queues and estimate waiting times.', // Citing: [cite: 60]
+    tags: ['Queuing Theory', 'Monte Carlo', 'Simulation'],
     emphasized: true,
-  },
-  // {
-  //   title: 'Lead Basketball Instructor',
-  //   subtitle: 'Lifetime Activities',
-  //   image: lifetime,
-  //   dates: 'Jul. 2024 - present',
-  //   description:
-  //     'Orchestrated basketball skills programs for children and teens, achieving 25% enrollment growth per eight weeks.',
-  // },
-  {
-    title: 'MPHYS Master\'s in Physics',
-    subtitle: 'The University of Manchester',
-    image: sjsu,//Change
-    dates: 'July. 2020',
-    description:
-      'Led diverse teams on various software development projects, utilizing SDLC methodologies to deliver high-quality solutions.',
-    gpa: 3.76,
-  },
-  {
-    title: 'Software Engineer — Mobile',
-    subtitle: 'Spotter',
-    link: 'https://apps.apple.com/app/id6754656428',
-    tags: [],
-    image: spotter,
-    dates: 'Jul. 2025 - present',
-    description:
-      'Designed, developed, shipped, and maintained Spotter, a workout tracking app built for weightlifters.',
   },
 ]
 
