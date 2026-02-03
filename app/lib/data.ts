@@ -112,27 +112,27 @@ export const socials = [
   {
     name: 'Email',
     icon: FaEnvelope,
-    href: 'mailto:adross1027@gmail.com',
+    href: 'mailto:ffinian@outlook.com',
     color: '#E5A823',
   },
 ] as const
 
 export const interests = [
   {
-    name: 'Basketball',
-    image: warriors,
+    name: 'Piano',
+    image: warriors, //Change
   },
   {
-    name: 'Soccer',
-    image: villa,
+    name: 'Chinese',
+    image: villa, //change
   },
   {
-    name: 'Baseball',
-    image: giants,
+    name: 'Movies',
+    image: giants, //Change
   },
   {
     name: 'Football',
-    image: niners,
+    image: niners, //Change
   },
   {
     name: 'Tennis',
@@ -162,86 +162,12 @@ export const interests = [
 ] as const
 
 export const skills = [
-  {
-    name: 'TypeScript',
-    image: typescript,
-  },
-  {
-    name: 'Python',
-    image: python,
-  },
-  {
-    name: 'Java',
-    image: java,
-  },
-  {
-    name: 'SQL',
-    image: sql,
-  },
-  {
-    name: 'HTML',
-    image: html,
-  },
-  {
-    name: 'CSS',
-    image: css,
-  },
-  {
-    name: 'Swift',
-    image: swift,
-  },
-  {
-    name: 'React',
-    image: react,
-  },
-  {
-    name: 'Next.js',
-    image: next,
-  },
-  {
-    name: 'Expo',
-    image: expo,
-  },
-  {
-    name: 'Node.js',
-    image: node,
-  },
-  {
-    name: 'Flask',
-    image: flask,
-  },
-  {
-    name: 'MongoDB',
-    image: mongodb,
-  },
-  {
-    name: 'PostgreSQL',
-    image: postgres,
-  },
-  {
-    name: 'MySQL',
-    image: mysql,
-  },
-  {
-    name: 'Pandas',
-    image: pandas,
-  },
-  {
-    name: 'Scikit-learn',
-    image: scikit,
-  },
-  {
-    name: 'BeautifulSoup',
-    image: beautifulsoup,
-  },
-  {
-    name: 'Selenium',
-    image: selenium,
-  },
-  {
-    name: 'AWS',
-    image: aws,
-  },
+  { name: 'Python', image: python },
+  { name: 'C#', image: null }, // You may need to import a C# logo
+  { name: 'C++', image: c }, 
+  { name: 'MATLAB', image: null },
+  { name: 'HTML', image: html },
+  { name: 'VB.net', image: null },
 ] as const
 
 export const projects = [
@@ -453,8 +379,8 @@ export const experiences = [
   //     'Managed HR functions such as recruiting, payroll, training, and optimizing team schedules to save $10K+ quarterly.',
   // },
   {
-    title: 'Software Engineer',
-    subtitle: 'Cinefind',
+    title: 'Research Student',
+    subtitle: 'Nuffield Research Placement, Cardiff University ',
     link: 'https://cinefind.app',
     //   {
     //     src: python,
@@ -478,18 +404,18 @@ export const experiences = [
     //   },
     // ],
     tags: [
-      'Automation Engineering',
-      'Full-Stack Web Development',
-      'API Design',
-      'Third-Party Data',
-      'UX Design',
-      'Real-Time Notifications',
-      'Subscription Billing',
+      'Analaysis of Queuing Theory',
+      'Simulation',
+      'Monte Carlo methods',
+      // 'Third-Party Data',
+      // 'UX Design',
+      // 'Real-Time Notifications',
+      // 'Subscription Billing',
     ],
-    image: cinefindLogoC,
-    dates: 'Jun. 2024 - Aug. 2025',
+    image: cinefindLogoC, //change
+    dates: 'Jul. - Aug. 2015',
     description:
-      'Built and launched the full technical stack, using Python for web automation and real-time alerts, and Next.js with MongoDB for the web platform.',
+      'Took part in a research placement at Cardiff University. Used Monte-Carlo methods to simulate queues and estimate waiting times for the maths department.',
     emphasized: true,
   },
   // {
@@ -501,10 +427,10 @@ export const experiences = [
   //     'Orchestrated basketball skills programs for children and teens, achieving 25% enrollment growth per eight weeks.',
   // },
   {
-    title: 'B.S. Software Engineering',
-    subtitle: 'San Jose State University',
-    image: sjsu,
-    dates: 'Dec. 2025',
+    title: 'MPHYS Master\'s in Physics',
+    subtitle: 'The University of Manchester',
+    image: sjsu,//Change
+    dates: 'July. 2020',
     description:
       'Led diverse teams on various software development projects, utilizing SDLC methodologies to deliver high-quality solutions.',
     gpa: 3.76,
@@ -525,16 +451,16 @@ export const footerLinks = [
   {
     name: 'LinkedIn',
     icon: FaLinkedin,
-    href: 'https://www.linkedin.com/in/alex-ross-32b278236/',
+    href: 'https://www.linkedin.com/in/alex-ross-32b278236/',//change
   },
   {
     name: 'GitHub',
     icon: FaGithub,
-    href: 'https://www.github.com/aross2010',
+    href: 'https://www.github.com/aross2010',//change
   },
   {
     name: 'Email',
     icon: FaEnvelope,
-    href: 'mailto:@alex.ross@sjsu.edu',
+    href: 'mailto:ffinian@outlook.com',
   },
 ] as const
