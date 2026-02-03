@@ -119,55 +119,30 @@ export const socials = [
 
 export const interests = [
   {
-    name: 'Piano',
-    image: warriors, //Change
-  },
-  {
-    name: 'Chinese',
-    image: villa, //change
-  },
-  {
-    name: 'Movies',
-    image: giants, //Change
-  },
-  {
-    name: 'Football',
-    image: niners, //Change
-  },
-  {
-    name: 'Tennis',
-    icon: PiTennisBallFill,
-  },
-  {
-    name: 'Fitness',
-    icon: FaDumbbell,
-  },
-  {
-    name: 'Movies',
-    image: boxd,
-    href: 'https://letterboxd.com/aross2010/',
-  },
-  {
-    name: 'Music',
-    image: atcq,
-  },
-  {
-    name: 'Reading',
+    name: 'Piano (Grade 8 Distinction)', [cite: 63]
     icon: FaBookOpen,
   },
   {
-    name: 'Traveling',
-    icon: FaPlaneDeparture,
+    name: 'Mandarin Chinese (HSK6)', [cite: 31]
+    icon: FaBookOpen,
+  },
+  {
+    name: 'Mixed Martial Arts', [cite: 65]
+    icon: FaDumbbell,
+  },
+  {
+    name: 'French', [cite: 65]
+    icon: FaBookOpen,
   },
 ] as const
 
 export const skills = [
-  { name: 'Python', image: python },
-  { name: 'C#', image: null }, // You may need to import a C# logo
-  { name: 'C++', image: c }, 
-  { name: 'MATLAB', image: null },
-  { name: 'HTML', image: html },
-  { name: 'VB.net', image: null },
+  { name: 'Python', image: python }, [cite: 33]
+  { name: 'C#', image: null }, [cite: 33]
+  { name: 'C++', image: c }, [cite: 33]
+  { name: 'MATLAB', image: null }, [cite: 33]
+  { name: 'VB.net', image: null }, [cite: 33]
+  { name: 'HTML', image: html }, [cite: 33]
 ] as const
 
 export const projects = [
@@ -197,25 +172,27 @@ export const projects = [
 export const experiences = [
   {
     title: 'Physics & Programming Educator',
-    subtitle: 'AISSU, Shenzhen', // Citing: [cite: 35]
-    dates: 'Aug. 2025 - present',
-    description: 'Designing physics curriculum and communicating in Mandarin to facilitate technical instruction.', // Citing: [cite: 36, 38]
-    image: null,
+    subtitle: 'AISSU, Shenzhen', [cite: 35]
+    dates: 'Aug. 2025 - present', [cite: 35]
+    description: 'Taught and designed physics curriculum. Communicated in Mandarin to facilitate technical instruction.', [cite: 36, 38]
+    tags: ['IGCSE Physics', 'AS-level Physics', 'C1 Mandarin'], [cite: 31, 38]
+    emphasized: true,
   },
   {
-    title: 'MPhys Master\'s in Physics',
-    subtitle: 'The University of Manchester', // Citing: [cite: 23]
-    dates: 'Graduated July 2020',
-    description: 'Upper Second-Class Honors (2/1). Specialization in 1st Class programming modules.', // Citing: [cite: 23, 25]
-    image: null,
+    title: 'MPHYS Master\'s in Physics',
+    subtitle: 'The University of Manchester', [cite: 23]
+    dates: 'Graduated July 2020', [cite: 23]
+    description: 'Upper Second-Class Honors (2/1). Awarded 77% on Master\'s Dissertation (Dutch Cum Laude equivalent).', [cite: 23, 24]
+    tags: ['WO Master of Science', 'Scientific Computing', 'Data Analysis'], [cite: 23, 11]
+    emphasized: false,
   },
   {
     title: 'Research Student',
-    subtitle: 'Cardiff University (Nuffield Placement)', // Citing: [cite: 59]
-    dates: 'Jul. - Aug. 2015',
-    description: 'Used Monte-Carlo methods to simulate queues and estimate waiting times.', // Citing: [cite: 60]
-    tags: ['Queuing Theory', 'Monte Carlo', 'Simulation'],
-    emphasized: true,
+    subtitle: 'Cardiff University (Nuffield Placement)', [cite: 59]
+    dates: 'Jul. - Aug. 2015', [cite: 59]
+    description: 'Researched applied mathematics and undertook original research into queuing theory using Python simulations.', [cite: 60]
+    tags: ['Queuing Theory', 'Monte Carlo', 'Python'], [cite: 60]
+    emphasized: false,
   },
 ]
 
